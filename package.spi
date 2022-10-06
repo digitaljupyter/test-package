@@ -1,0 +1,7 @@
+(package "test package")
+
+(preload-commands 
+	(progn
+		(print "hello")))
+
+(add-file "main.asd")
