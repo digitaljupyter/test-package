@@ -1,7 +1,4 @@
-(package "test package")
+(set package "test package")
 
-(preload-commands 
-	(progn
-		(print "hello")))
-
-(add-file "main.asd")
+(set sources 
+	(list "main.asd"))
